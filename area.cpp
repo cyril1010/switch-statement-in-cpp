@@ -1,5 +1,4 @@
-//AREA OF RECTANGLE / CIRCLE / TRIANGLE USING SWITCH STATEMENT IN C++
-
+// Online C++ compiler to run C++ program online
 #include<iostream>
 using namespace std;
 int main()
@@ -11,9 +10,9 @@ int main()
     cin>>ch;
     switch(ch)
     {
-        case 1 : cout<<" ENTER THE LENGTH AND BREADTH = ";
-        cin>>l_rect>>b_rect;
-        cout<<" \n AREA OF THE RECTANGLE = "<<l_rect*b_rect;
+        	case 1 : cout<<" ENTER THE LENGTH AND BREADTH = ";
+        	cin>>l_rect>>b_rect;
+        	cout<<" \n AREA OF THE RECTANGLE = "<<l_rect*b_rect;
 		break;
 		case 2 : cout<<" ENTER THE RADIUS = ";
 		cin>>r_circle;
@@ -24,6 +23,5 @@ int main()
 		cout<<" \n AREA OF THE TRIANGLE = "<<(b_tri*h_tri)/2;
 		break;
     }
-return 0;
+    return 0;
 }
-
