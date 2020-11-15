@@ -1,7 +1,7 @@
 // Program to implement switch statement to find the area of Rectangle/ Circle / Triangle
 #include<iostream>
 using namespace std;
-int main()
+int main() 
 {
     float l_rect,b_rect,a_rect,r_circle,a_circle,b_tri,h_tri,a_tri;
     int ch;
