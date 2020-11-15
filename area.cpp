@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 int main() 
-{
+{ 
     float l_rect,b_rect,a_rect,r_circle,a_circle,b_tri,h_tri,a_tri;
     int ch;
     cout<<" ENTER YOUR CHOICE = ";
